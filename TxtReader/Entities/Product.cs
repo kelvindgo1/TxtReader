@@ -7,12 +7,15 @@ namespace TxtReader.Entities
     class Product
     {
         public string Name { get; set; }
-        public double Price { get; set; }
+        public double Salary { get; set; }
 
-        public Product(string name, double price)
+        public string Email { get; set; }
+
+        public Product(string name, double salary, string email)
         {
             Name = name;
-            Price = price;
+            Salary = salary;
+            Email = email;
         }
     }
 }
